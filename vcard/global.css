@@ -1,0 +1,95 @@
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	background: rgba(126,202,132,.3);
+	background: #D8EFDA;
+	line-height: 1.5;
+	color: #2D2825;
+}
+.frame {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  left: 30px;
+  bottom: 30px;
+  background: url(imgs/bg-vcard.png) no-repeat left 120px bottom, #fff;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.section--description {
+	width: 363px;
+	position: absolute;
+	right: 180px;
+	top: 160px;
+}
+h1 {
+	font-family: "Abril Text", serif;
+	font-size: 82px;
+	font-weight: bold;
+	line-height: 1.1;
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+.social {
+	list-style: none;
+	margin: 40px 0;
+	padding: 0;
+}
+.social__el {
+	float: left;
+	margin-right: 17px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.social__el a {
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+.social__el a:hover, .social__el a:focus {
+	cursor: pointer;
+	outline: 0;
+}
+.social__el--behance a {
+	background: url(imgs/behance-black.png) no-repeat center center;
+}
+.social__el--github a {
+	background: url(imgs/github-black.png) no-repeat center center;
+}
+.social__el--google a {
+	background: url(imgs/google-black.png) no-repeat center center;
+}
+.social__el--pinterest a {
+	background: url(imgs/pinterest-black.png) no-repeat center center;
+}
+.social__el--twitter a {
+	background: url(imgs/twitter-black.png) no-repeat center center;
+}
+.link {
+	display: inline-block;
+	clear: both;
+	margin: 40px 0;
+}
+.mailto {
+	text-decoration: none;
+	color: #2D2825;
+	padding: 0 0 3px 0;
+	border-bottom: 1px solid #2D2825;
+}
+.mailto:hover, .mailto:focus {
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+}
+#particles-js {
+	z-index: -1;
+}
